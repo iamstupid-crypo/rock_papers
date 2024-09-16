@@ -37,7 +37,7 @@ if user_choice==0 and computer_choice==2:
 
 elif computer_choice==0 and user_choice==2:
     print("you lose!")
-elif user_choice >= 3 or user_choice <= 0:
+elif user_choice >= 3 or user_choice < 0:
     print("you typed an invalid number. you lose!")
 elif computer_choice>user_choice:
     print("you lose :(")
